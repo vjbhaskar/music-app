@@ -20,9 +20,9 @@ function App() {
     setShowMenuBar(val);
   };
 
-  const goHome = useCallback(() => {
+  const goHome = () => {
     if (location !== "/") setLocation("/");
-  }, []);
+  };
   const onMenuClicked = useCallback(() => {
     setShowMenuBar((prevVal) => !prevVal);
   }, []);

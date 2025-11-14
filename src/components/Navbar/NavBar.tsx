@@ -1,6 +1,6 @@
 import { AppBar, Box, IconButton, Toolbar } from "@mui/material";
 import { useLocation } from "wouter";
-import styles from "./Navbar.module.css";
+import styles from "./NavBar.module.css";
 import MenuIcon from "@mui/icons-material/Menu";
 import ModeNightIcon from "@mui/icons-material/ModeNight";
 import LightModeIcon from "@mui/icons-material/LightMode";
@@ -62,7 +62,7 @@ const NavBar = ({
                 >
                   <img
                     className={styles.logoImage}
-                    src={"../src/assets/finn-tunes-primary-dark.png"}
+                    src={"/assets/finn-tunes-primary-dark.png"}
                   />
                 </Box>
               )}
@@ -75,7 +75,7 @@ const NavBar = ({
                 >
                   <img
                     className={styles.logoImage}
-                    src={"../src/assets/finn-tunes-primary-light.png"}
+                    src={"/assets/finn-tunes-primary-light.png"}
                   />
                 </Box>
               )}
@@ -90,7 +90,7 @@ const NavBar = ({
                 <Box sx={showOnMobile}>
                   <img
                     className={styles.logoImage}
-                    src={"../src/assets/finn-tunes-icon.png"}
+                    src={"/assets/finn-tunes-icon.png"}
                   />
                 </Box>
               )}

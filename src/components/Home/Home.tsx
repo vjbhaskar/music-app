@@ -71,7 +71,12 @@ const Home = ({ showMenuBar, onMenuBarClosed, searchString }: HomeProps) => {
             onMenuBarClosed(!showMenuBar);
           }}
         >
-          <SideNav categoryClicked={(category) => setCategoryQuery(category)} />
+          <SideNav
+            categoryClicked={(category) => {
+              setCategoryQuery(category);
+              onMenuBarClosed(!showMenuBar);
+            }}
+          />
         </Drawer>
       </Grid>
       <Grid

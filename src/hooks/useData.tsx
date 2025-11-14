@@ -17,9 +17,7 @@ const useData = ({ category, country }: ListQuery) => {
         `https://itunes.apple.com/${country.slug}/rss/${category.slug}/limit=100/json`
       )
       .then((res) => {
-        console.log("res.data", res.data);
         const result = transformItems(res.data.feed.entry);
-        console.log("result", result);
         return result;
       });
   };

@@ -11,6 +11,7 @@ import { categories } from "../../services/commonLists";
 import type { Category } from "../../types/types";
 import { useState } from "react";
 import { useLocation } from "wouter";
+import HomeFilledIcon from "@mui/icons-material/HomeFilled";
 
 interface SideNavProps {
   categoryClicked: (navItem: Category) => void;
@@ -52,12 +53,13 @@ const SideNav = ({ categoryClicked }: SideNavProps) => {
             </ListItemButton>
           </ListItem>
         ))}
-        <ListItem sx={showOnMobile}>
+        <ListItem sx={showOnMobile} disablePadding>
           <ListItemButton
             onClick={() => {
               goToHome();
             }}
           >
+            <Icon component={HomeFilledIcon} />
             <ListItemText primary={"Main Page"} sx={{ p: 1 }} />
           </ListItemButton>
         </ListItem>

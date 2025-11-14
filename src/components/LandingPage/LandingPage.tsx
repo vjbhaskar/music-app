@@ -25,7 +25,7 @@ const LandingPage = () => {
         }}
       >
         <Box>
-          <img className={styles.finnLogo} src="../src/assets/logo_1.png" />
+          <img className={styles.finnLogo} src="/assets/logo_1.png" />
         </Box>
         <Grid size={12} className={styles.banner} textAlign={"center"}>
           <Typography variant="h2">FINN Tunes</Typography>
