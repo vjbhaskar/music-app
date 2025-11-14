@@ -118,7 +118,7 @@ const Home = ({ showMenuBar, onMenuBarClosed, searchString }: HomeProps) => {
             })}
           {!isLoading && error && <p> {error.message} </p>}
           {!isLoading && queriedData?.length === 0 && (
-            <Typography>No albums found matching "{searchString}"</Typography>
+            <Typography>No results found matching "{searchString}"</Typography>
           )}
 
           {!isLoading &&
