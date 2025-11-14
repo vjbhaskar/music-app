@@ -1,6 +1,6 @@
 import { AppBar, Box, IconButton, Toolbar } from "@mui/material";
 import { useLocation } from "wouter";
-import styles from "./NavBar.module.css";
+import styles from "./Navbar.module.css";
 import MenuIcon from "@mui/icons-material/Menu";
 import ModeNightIcon from "@mui/icons-material/ModeNight";
 import LightModeIcon from "@mui/icons-material/LightMode";

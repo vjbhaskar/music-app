@@ -9,7 +9,7 @@ import {
   Typography,
 } from "@mui/material";
 import type { Album } from "../../types/types";
-import styles from "./ImageCard.module.css";
+import styles from "./imageCard.module.css";
 import getCroppedImageUrl from "../../services/image-url";
 import ShopIcon from "@mui/icons-material/Shop";
 import Favorite from "@mui/icons-material/Favorite";
