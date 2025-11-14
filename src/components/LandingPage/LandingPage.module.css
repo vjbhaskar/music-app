@@ -1,0 +1,12 @@
+.finnLogo {
+  height: 120px;
+}
+
+.homeNavigationButton {
+  background: linear-gradient(135deg, #ff006b 0%, #ff6b00 100%) !important;
+  margin-top: 1vh;
+}
+
+.banner {
+  margin: 2vh 0;
+}
