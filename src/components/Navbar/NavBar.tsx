@@ -62,7 +62,7 @@ const NavBar = ({
                 >
                   <img
                     className={styles.logoImage}
-                    src={"/assets/finn-tunes-primary-dark.png"}
+                    src={"/assets/tunes-icon.png"}
                   />
                 </Box>
               )}
@@ -75,7 +75,7 @@ const NavBar = ({
                 >
                   <img
                     className={styles.logoImage}
-                    src={"/assets/finn-tunes-primary-light.png"}
+                    src={"/assets/tunes-icon.png"}
                   />
                 </Box>
               )}
@@ -90,7 +90,7 @@ const NavBar = ({
                 <Box sx={showOnMobile}>
                   <img
                     className={styles.logoImage}
-                    src={"/assets/finn-tunes-icon.png"}
+                    src={"/assets/tunes-icon.png"}
                   />
                 </Box>
               )}

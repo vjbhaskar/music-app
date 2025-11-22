@@ -28,11 +28,11 @@ const LandingPage = () => {
           <img className={styles.finnLogo} src="/assets/logo_1.png" />
         </Box>
         <Grid size={12} className={styles.banner} textAlign={"center"}>
-          <Typography variant="h2">FINN Tunes</Typography>
+          <Typography variant="h2">Tunes</Typography>
         </Grid>
         <Grid size={12} className={styles.banner} textAlign={"center"}>
           <Typography variant="h5">
-            What’s a drive without the right soundtrack? FINN now offers
+            What’s a drive without the right soundtrack? We now offer
             subscriptions not only for cars, but also for great music to
             accompany every journey.
           </Typography>

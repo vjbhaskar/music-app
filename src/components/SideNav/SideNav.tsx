@@ -18,7 +18,7 @@ interface SideNavProps {
 }
 
 const SideNav = ({ categoryClicked }: SideNavProps) => {
-  const [selectedItem, setSelectedItem] = useState("");
+  const [selectedItem, setSelectedItem] = useState("topalbums");
   const [location, setLocation] = useLocation();
   const theme = useTheme();
   const showOnMobile = {
